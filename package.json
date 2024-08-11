@@ -1,0 +1,20 @@
+{
+  "name": "mini-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "DEBUG=vite* tsx ./lib/vite.ts dev",
+    "dev:watch": "DEBUG=vite* tsx --watch ./lib/vite.ts dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/connect": "^3.4.38",
+    "connect": "^3.7.0",
+    "debug": "^4.3.6"
+  },
+  "packageManager": "pnpm@9.6.0"
+}
